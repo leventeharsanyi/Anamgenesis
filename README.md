@@ -17,6 +17,13 @@ poetry shell
 poetry install
 ```
 
+## Adding an env file and put a secret key there
+The .env should be at the level of pyproject.toml. For testing purposes add a secret like this to the env: 
+
+```bash
+MY_SECRET_MESSAGE=You_did_it!
+```
+
 ## Running the app
 
 ```bash
