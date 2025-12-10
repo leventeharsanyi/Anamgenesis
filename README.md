@@ -10,7 +10,7 @@ Small Streamlit demo app using **Python 3.12** and **Poetry**.
 ## Setup
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/leventeharsanyi/Anamgenesis
 cd anamgenesis
 poetry env use python3.13
 poetry shell
