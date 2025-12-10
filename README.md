@@ -18,10 +18,11 @@ poetry install
 ```
 
 ## Adding an env file and put a secret key there
-The .env should be at the level of pyproject.toml. For testing purposes add a secret like this to the env: 
+The .env should be at the level of pyproject.toml. For testing purposes add a secret like this to the env. Also add the ELEVENSLAB api key.
 
 ```bash
 MY_SECRET_MESSAGE=You_did_it!
+ELEVENLABS_API_KEY=<YOUR_API_KEY>
 ```
 
 ## Running the app
